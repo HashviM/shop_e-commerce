@@ -1,0 +1,127 @@
+Project Prompt: Tailoring & Clothing E-Commerce Website
+Project Overview
+Develop a full-featured online tailoring and clothing e-commerce platform that enables customers to:
+Purchase ready-made clothing directly from the site.
+Place custom tailoring orders without visiting the shop.
+Send their own fabric/material to the store for stitching.
+Provide measurements online for a perfect fit.
+Choose from store designs or upload their own designs.
+Track orders from submission to delivery.
+Connect with the store through Instagram & WhatsApp.
+The website must be:
+Trustworthy – professional design, secure payments, clear policies.
+User-friendly – easy navigation, mobile optimization.
+Engaging – integrated with social media and showcasing new designs.
+
+Goals
+Reduce the need for physical store visits.
+Offer both ready-mades and custom tailoring services online.
+Build trust with clear product details, customer reviews, and order tracking.
+Allow customers to easily submit measurements & preferences.
+Enable quick updates for new designs, fabrics, and promotions.
+
+Core Features
+1. Home Page
+Shop name, tagline, professional banner.
+Highlight main sections: Ready-Mades, Custom Tailoring, Special Stitching.
+Showcase top designs & trending products.
+Instagram feed integration (auto-updates from your posts).
+CTA buttons: Shop Now, Custom Order, Us.
+
+2. Ready-Made Shop
+Product catalog with categories:
+Sarees
+Kurtis & Chudithaar
+Western Wear
+Fusion Tops, Crop Tops, Peplum Tops, Co-ords
+Filters: by category, price, size.
+Size options: XS, S, M, L, XL, XXL.
+Product detail page: images, price, size options, Add to Cart button.
+Checkout with shipping form & payment gateway.
+
+3. Custom Tailoring Orders
+Design Selection: upload image or select from gallery.
+Fabric Options:
+"Provide my own material" (instructions & delivery address).
+"Use shop fabric" (select from catalog).
+Measurement Options:
+Simple: XS, S, M, L, XL.
+Advanced: bust, waist, hip, shoulder width, sleeve length, armhole, neck depth, etc.
+Measurement guide with diagrams/videos.
+Option to save measurements in customer profile.
+Preferences Box for embroidery, style, or special instructions.
+Order confirmation page with details & payment option.
+
+4. Services Page
+Aari Work Blouses.
+Classic Blouses.
+Chudithaar Stitching.
+Alterations.
+Fusion & Western Custom Designs.
+
+5. Gallery
+High-resolution images of designs, completed works, new arrivals.
+Instagram API integration for auto-updates.
+
+6. Order Tracking
+Enter Order ID to check status: Order Received, In Progress, Shipped, Delivered.
+
+7. Contact & Support
+Contact form (name, email, phone, message).
+WhatsApp API button for instant messaging.
+Google Maps embed for store location.
+Store phone & email.
+
+8. Customer Account (Optional Phase)
+Login/signup.
+Save measurements.
+View past orders & reorder.
+Wishlist.
+
+Extra Recommended Features
+Live chat widget (Tawk.to or WhatsApp API).
+Seasonal offers section.
+Fabric selection tool with live preview.
+Customer reviews/testimonials.
+Email notifications for order updates.
+
+Technical Stack
+Frontend
+HTML5, CSS3, JavaScript (Vanilla or React later).
+Bootstrap or Tailwind CSS for styling.
+Backend
+Django (Python) – powerful for e-commerce + database handling.
+Database
+Development: SQLite.
+Production: MySQL or PostgreSQL.
+Hosting
+Free: PythonAnywhere / Render.
+Paid: Hostinger / Heroku.
+Integrations
+Instagram API – for gallery updates.
+WhatsApp API – for customer chat.
+Payment Gateway – Razorpay (India friendly) or Stripe.
+
+Tools You’ll Use
+VS Code – coding.
+Python (3.10+) – backend.
+Node.js – if you use React.
+Git & GitHub – version control.
+Postman – API testing.
+Figma / Canva – UI design mockups.
+Google Drive – store media & docs.
+
+Development Phases
+Phase 1 – Static Prototype
+Build all pages with HTML/CSS (no backend).
+Phase 2 – Backend Setup
+Django project setup, models for products, orders, customers.
+Phase 3 – E-Commerce Features
+Cart, checkout, payment gateway.
+Phase 4 – Custom Tailoring Module
+Measurements, fabric choices, design upload.
+Phase 5 – Hosting & Testing
+Host online, connect domain, test with real users.
+
+
+

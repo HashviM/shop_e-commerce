@@ -1,0 +1,11 @@
+PROMPT :
+
+I want to build a full-stack e-commerce website for a tailoring and clothing shop. Customers should be able to:
+Buy ready-made clothes online (with categories, sizes, images, and cart/checkout).
+Place custom tailoring orders by selecting designs from the shop or uploading their own, choosing fabrics, and providing measurements (both standard sizes and detailed custom measurements).
+Send their own fabric for stitching and receive the finished product via delivery.
+Track orders from "Order Received" to "Delivered".
+Contact us via WhatsApp and view our Instagram feed directly on the site.
+The site should have a frontend (HTML, CSS, JavaScript) for the user interface, a backend (Python Django) to handle business logic, and a database (MySQL or SQLite) to store products, customers, and orders.
+I will use VS Code for development, host it on PythonAnywhere or Hostinger, and connect a custom domain.
+The project should include a home page, product pages, a custom tailoring form, a services page, a gallery, an order tracking system, and a contact page. It must be mobile-friendly, secure, and easy to update.
