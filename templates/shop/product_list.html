@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Ready‑Mades · TailorShop{% endblock %}
+{% block content %}
+<h2 class="mb-4">Ready‑Mades</h2>
+<div class="row row-cols-2 row-cols-md-4 g-3">
+  {% for i in "123456" %}
+  <div class="col">
+    <div class="card">
+      <div class="ratio ratio-4x3 bg-light"></div>
+      <div class="card-body">
+        <h6 class="card-title mb-1">Product {{ forloop.counter }}</h6>
+        <div class="text-muted small mb-2">₹1,999</div>
+        <a href="{% url 'shop:detail' forloop.counter %}" class="btn btn-sm btn-dark">View</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

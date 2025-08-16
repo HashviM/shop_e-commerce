@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Tailoring & Clothing</title>
-</head>
-<body>
-    <h1>Tailoring & Clothing — It works!</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Ready-Mades</a></li>
-            <li><a href="#">Custom Tailoring</a></li>
-            <li><a href="#">Services</a></li>
-        </ul>
-    </nav>
-</body>
-</html>
+{% extends "base.html" %}
+{% block title %}Home · TailorShop{% endblock %}
+{% block content %}
+<div class="p-5 mb-4 bg-light rounded-3">
+  <div class="container py-5">
+    <h1 class="display-5 fw-bold">Perfect Fit, Delivered</h1>
+    <p class="col-md-8 fs-5">Ready‑mades and custom tailoring—order online, get stitched to your measurements.</p>
+    <a href="{% url 'shop:list' %}" class="btn btn-dark btn-lg me-2">Shop Ready‑Mades</a>
+    <a href="{% url 'tailoring:index' %}" class="btn btn-outline-dark btn-lg">Custom Tailoring</a>
+  </div>
+</div>
+{% endblock %}

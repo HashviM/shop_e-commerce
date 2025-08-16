@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Custom Tailoring · TailorShop{% endblock %}
+{% block content %}
+<div class="text-center py-5">
+  <h1>Custom Tailoring</h1>
+  <p>Get outfits stitched to your exact measurements.</p>
+  <a href="{% url 'tailoring:measurements' %}" class="btn btn-dark">Enter Measurements</a>
+</div>
+{% endblock %}

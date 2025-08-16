@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Gallery · TailorShop{% endblock %}
+{% block content %}
+<h2 class="mb-4">Gallery</h2>
+<div class="row row-cols-2 row-cols-md-4 g-3">
+  {% for i in "12345678" %}
+    <div class="col"><div class="ratio ratio-1x1 bg-light rounded"></div></div>
+  {% endfor %}
+</div>
+{% endblock %}
